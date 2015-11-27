@@ -11,10 +11,10 @@
     <title>Site Simples em PHP | Code School</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,11 +34,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Site Simples em PHP | Code School</a>
+            <a class="navbar-brand" href="../index.php">Site Simples em PHP | Code School</a>
         </div>
         <div class="collapse navbar-collapse" id="b-menu-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="../nav.php?page=home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="../nav.php?page=empresa"><span class="glyphicon glyphicon-briefcase"></span> Empresa</a></li>
                 <li><a href="../nav.php?page=produtos"><span class="glyphicon glyphicon-folder-close"></span> Produtos</a></li>
                 <li><a href="../nav.php?page=servicos"><span class="glyphicon glyphicon-bullhorn"></span> Serviços</a> </li>
@@ -47,4 +47,5 @@
         </div><!--/.navbar-collapse -->
     </div>
 </nav>
-     ' ; ?>
+     ' ;
+?>
