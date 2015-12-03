@@ -1,7 +1,7 @@
-<?php $active_home= true; ?>
+<?php ?>
 
     <!-- Navigation -->
-        <?php require_once 'includes/header.php' ;?>
+    <?php require_once 'includes/header.php' ;?>
 
     <!-- Content -->
     <?php require_once 'includes/content.php' ;?>
